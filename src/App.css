@@ -146,6 +146,10 @@ td {
 
 }
 
+select{
+  background-color:lightgoldenrodyellow;
+}
+
 /*  Tablet Responsive */
 
 @media (max-width: 992px) {
@@ -192,6 +196,11 @@ td {
   h1 {
     font-size: 20px;
   }
+  .actionbtn {
+  flex-direction: column;
+  }
+  
+}
 
   h3 {
     font-size: 16px;
