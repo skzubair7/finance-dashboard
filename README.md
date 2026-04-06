@@ -48,15 +48,15 @@ Screenshots
 
 1. Main Dashboard View (Admin)
 Displays the full interface with all charts and management controls.
-![Admin Dashboard](./screenshots/desktop-admin-view.png)
+![Admin Dashboard](./Screenshots/desktop-admin-view.png)
 
 2. Mobile Responsive Layout
 Shows how the dashboard stacks and adjusts for smaller screens.
-![Mobile View](./screenshots/mobile-responsive-view.png)
+![Mobile View](./Screenshots/mobile-responsive-view.png)
 
 3. Role-Based Access Control
 Comparison between the Admin view (with actions) and Viewer view (read-only).
-![RBAC Demo](./screenshots/rbac-role-switch.png)
+![RBAC Demo](./Screenshots/rbac-role-switch.png)
 
 Documentation of Assumptions
 To make the application more robust and user-friendly, I have made the following assumptions and technical choices:
