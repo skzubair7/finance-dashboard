@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #f4f7f6;
+  margin: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+/* Cards */
+.stats-row {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  flex: 1;
+  min-width: 220px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px blueviolet;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
+
+/* Layout */
+.main-layout {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.left-side {
+  flex: 2;
+  min-width: 300px;
+  box-shadow: 2px 0px 2px blueviolet;
+
+}
+
+.right-side {
+  flex: 1;
+  min-width: 300px;
+  
+}
+
+/* Boxes */
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+
+  
+}
+
+/* Inputs */
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  
+}
+
+input {
+  border-radius: 10px;
+}
+
+select {
+  border-radius: 10px;
+}
+
+/* Buttons */
+button {
+  background: royalblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+/* Action Buttons */
+.actionbtn {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+/* Insights */
+.insights {
+  background: aliceblue;
+  border-left: 5px solid hotpink;
+  box-shadow: 2px 2px 2px blueviolet;
+
+}
+
+/*  Tablet Responsive */
+
+@media (max-width: 992px) {
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .left-side,
+  .right-side {
+    width: 97%;
+  }
+}
+
+/*  Mobile Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+  }
+
+  .stats-row {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 97%;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th,
+  td {
+    padding: 6px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
