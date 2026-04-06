@@ -49,6 +49,7 @@ Screenshots
 1. Main Dashboard View (Admin)
 Displays the full interface with all charts and management controls.
 ![Admin Dashboard(./Screenshots/desktop-admin-view.png)
+![Admin Dashboard](https://github.com/skzubair7/finance-dashboard/raw/main/Screenshots/desktop-admin-view.png)
 2. Mobile Responsive Layout
 Shows how the dashboard stacks and adjusts for smaller screens.
 ![Mobile View](./Screenshots/mobile-responsive-view.png)
