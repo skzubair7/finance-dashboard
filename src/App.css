@@ -155,7 +155,7 @@ td {
 
   .left-side,
   .right-side {
-    width: 97%;
+    width: 100%;
   }
 }
 
@@ -177,7 +177,7 @@ td {
   }
 
   .card {
-    width: 97%;
+    width: 100%;
   }
 
   table {
